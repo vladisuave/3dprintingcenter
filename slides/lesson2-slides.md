@@ -1,9 +1,9 @@
 ---
 title: "Lesson 2: Introduction to Tinkercad + First Project"
-subtitle: "3D Printing Center - Elementary Curriculum"
-author: "3D Printing Center"
-date: "45 minutes"
-theme: "Madrid"
+subtitle: "3D Printing Center - Village School"
+author: "v1"
+date: "2025"
+theme: "metropolis"
 colortheme: "default"
 fonttheme: "professionalfonts"
 aspectratio: 169

@@ -1,6 +1,6 @@
 # Introduction to 3D Printing Center
 
-## 6-Lesson Elementary Curriculum (Grades 3-5)
+## 6-Lesson Upper Grade Center Curriculum (Grades 3-5)
 
 ### Course Overview
 

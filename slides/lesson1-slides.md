@@ -1,9 +1,9 @@
 ---
 title: "Lesson 1: What is 3D Printing?"
-subtitle: "3D Printing Center - Elementary Curriculum"
-author: "3D Printing Center"
-date: "45 minutes"
-theme: "Madrid"
+subtitle: "3D Printing Center - Village School"
+author: "v1"
+date: "2025"
+theme: "metropolis"
 colortheme: "default"
 fonttheme: "professionalfonts"
 aspectratio: 169
@@ -22,10 +22,8 @@ aspectratio: 169
 
 - Toys and games
 - Tools and gadgets
-- Prosthetics helping people
+- Decorations
 - Food (yes, food!)
-- Car parts
-- Medical devices
 
 *Pass around demonstration objects*
 
@@ -43,13 +41,25 @@ aspectratio: 169
 
 # From Computer to Object
 
+::: columns
+
+:::: column
+
 ## The 3 Steps
 
 1. **Design** - We create on computers
 2. **Slice** - Computer breaks design into layers
 3. **Print** - Machine builds layer by layer
 
-*Show infographic: "From Computer to Object in 3 Steps"*
+::::
+
+:::: column
+
+![](images/3DPrintInfographic.png){height=90%}
+
+::::
+
+:::
 
 ---
 
