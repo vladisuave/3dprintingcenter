@@ -52,7 +52,7 @@ aspectratio: 169
 
 1. Open your web browser
 2. Go to **tinkercad.com**
-3. Use your **school Google account**
+3. Use your **school account**
 4. Click **"Sign In"**
 
 *Wait for everyone before moving on*
