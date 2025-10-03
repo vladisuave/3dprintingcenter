@@ -81,7 +81,7 @@ aspectratio: 169
 - **Custom phone cases** and game pieces
 - **Replacement parts** for broken toys
 - **Art projects** and sculptures
-- **Helpful tools** for people with disabilities
+- **Helpful tools**
 - **Medical devices** like prosthetics
 - **Aerospace** and car parts
 

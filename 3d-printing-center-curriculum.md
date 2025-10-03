@@ -12,7 +12,6 @@ Students will:
 
 - Understand what 3D printing is and how it works
 - Navigate Tinkercad to create basic 3D designs
-- Explain the layer-by-layer printing process
 - Design objects considering size and printing limitations
 - Create at least two original 3D designs
 - Identify real-world applications of 3D printing
@@ -20,12 +19,10 @@ Students will:
 ### Materials Needed
 
 - 3D printer (any modern FDM printer)
-- Computers/tablets with internet access
 - PLA filament
+- Chromebooks with internet access
 - Sample printed objects for demonstration
-- Simple infographics showing 3D printing process
 - Cross-section examples of printed objects
-- Variety of 3D printed objects from different industries
 
 \newpage
 
@@ -33,7 +30,7 @@ Students will:
 
 ### Introduction and Hook (10 minutes)
 
-**Hook:** Show students amazing 3D printed objects - toys, tools, prosthetics, food!
+**Hook:** Show students amazing 3D printed objects - toys, tools, food!
 
 **Key Question:** "What is 3D printing and how does it work?"
 
@@ -43,7 +40,7 @@ Students will:
 - 3D printing builds objects layer by layer, like stacking pancakes
 - We design on computers, then the printer makes it real
 - Plastic gets heated and squeezed out like frosting from a tube
-- Show infographic: "From Computer to Object in 3 Steps"
+- Show infographic from Placerville EDC Library
 
 **Visual Demonstrations:**
 - Use simple infographics showing the layer-by-layer process
@@ -56,10 +53,9 @@ Students will:
 - Custom phone cases and game pieces
 - Replacement parts for broken toys
 - Art projects and sculptures
-- Helpful tools for people with disabilities
-- Medical devices like prosthetics
+- Helpful tools
 - Aerospace and car parts
-- Food printing (chocolate, pizza!)
+- Food printing (chocolate!)
 
 **Interactive Activity:** Students examine printed objects and guess what they're used for
 
@@ -67,7 +63,7 @@ Students will:
 
 - Show the actual 3D printer (if available)
 - Explain the basic parts: hot end, build plate, filament
-- Safety rules: Never touch hot parts, don't reach in while printing
+- Safety rules: Never touch hot parts, don't reach in while printing (pinch hazards)
 
 ### Cleanup and Preview (5 minutes)
 
@@ -82,7 +78,7 @@ Students will:
 ### Introduction to Tinkercad (15 minutes)
 
 1. **Login to Tinkercad** (5 minutes)
-   - Use school Google accounts
+   - Use school accounts
    - Navigate to tinkercad.com
 
 2. **"Learning the Moves" Tutorial** (10 minutes)
@@ -143,15 +139,15 @@ Students will:
 - Learn to use the "Hole" tool to hollow out the inside
 
 **Step-by-Step Guidance:**
-1. Start with a cube or cylinder (5 minutes)
-2. Add a smaller shape inside (5 minutes)
-3. Make the inner shape a "Hole" (10 minutes)
-4. Group them together (5 minutes)
+1. Start with a cube or cylinder
+2. Add a smaller shape inside
+3. Make the inner shape a "Hole"
+4. Group them together
 
 ### Troubleshooting and Cleanup (10 minutes)
 
-- Help students who are struggling (7 minutes)
-- Save work and clean up workstations (3 minutes)
+- Help students who are struggling
+- Save work and clean up workstations
 
 \newpage
 
@@ -163,8 +159,11 @@ Students will:
 
 **Examples to spark ideas:**
 - Pencil holder that doesn't tip over
+- Pencil topper
+- Pencilcase
 - Hook for backpack
-- Phone stand for watching videos
+- Bookmark that stays in place
+- Cord organizer for headphones
 - Organizer for small toys or supplies
 
 ### Design Process (30 minutes)
@@ -298,7 +297,6 @@ Students can:
 ### Lesson 1 Specific Preparation:
 
 - Gather diverse 3D printed objects from different industries
-- Create or find simple infographics showing layer-by-layer process
 - Prepare cross-section examples (cut printed objects in half if possible)
 - Have printer ready for live demonstration
 - Plan interactive activities for examining objects

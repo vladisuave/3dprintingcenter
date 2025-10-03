@@ -26,6 +26,7 @@ aspectratio: 169
 ## Examining Our Prints
 
 **Let's analyze together:**
+
 - **What** printed successfully?
 - **What** had challenges?
 - **Why** did some work better than others?
@@ -38,6 +39,7 @@ aspectratio: 169
 ## Making Things Better
 
 **Iteration means:**
+
 - **Looking** at what you made
 - **Finding** ways to improve it
 - **Making** changes
@@ -63,6 +65,7 @@ aspectratio: 169
 ## Improve and Perfect
 
 **You can:**
+
 - **Fix problems** with existing designs
 - **Make** your problem-solver better
 - **Start** a completely new project
@@ -86,10 +89,10 @@ aspectratio: 169
 
 ## Choose Your Path
 
-**Option 1:** Fix your container design
-**Option 2:** Improve your problem-solver
-**Option 3:** Start something completely new
-**Option 4:** Combine ideas from multiple projects
+- **Option 1:** Fix your container design
+- **Option 2:** Improve your problem-solver
+- **Option 3:** Start something completely new
+- **Option 4:** Combine ideas from multiple projects
 
 ---
 
@@ -121,6 +124,7 @@ aspectratio: 169
 ## Get Expert Advice
 
 **Bring your design to teacher for:**
+
 - **Printability** check
 - **Improvement** suggestions
 - **Technical** problem solving
@@ -133,6 +137,7 @@ aspectratio: 169
 ## Learn from Each Other
 
 **Partner up and:**
+
 - **Show** your improved design
 - **Explain** what you changed
 - **Ask** for feedback
@@ -145,11 +150,14 @@ aspectratio: 169
 ## Getting Ready to Print
 
 **Export Process:**
+
 1. **Select** your best design
 2. **Click** "Export" 
-3. **Choose** "STL" format
+3. **Choose** "STL" format 
 4. **Name** it clearly
 5. **Download** to save
+
+*Update this if we print straight to Polar 3D from Tinkercad*
 
 ---
 
@@ -158,11 +166,13 @@ aspectratio: 169
 ## Make It Clear
 
 **Good names:**
+
 - "Sarah_Pencil_Holder_v2.stl"
 - "Mike_Phone_Stand_Final.stl"
 - "Emma_Keychain_Improved.stl"
 
 **Bad names:**
+
 - "Design1.stl"
 - "Untitled.stl"
 - "Thing.stl"
@@ -174,6 +184,7 @@ aspectratio: 169
 ## Before You Export
 
 **Ask yourself:**
+
 - **Is this** my best work?
 - **Would I** be proud to show this?
 - **Does it** solve the problem I identified?
@@ -197,6 +208,7 @@ aspectratio: 169
 ## Record Your Process
 
 **Write down:**
+
 - **What** you improved
 - **Why** you made changes
 - **What** you learned
@@ -220,6 +232,7 @@ aspectratio: 169
 ## Getting Ready for Next Lesson
 
 **Think about:**
+
 - **How** you'll present your work
 - **What** problem your design solves
 - **What** you're most proud of

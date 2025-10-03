@@ -83,6 +83,7 @@ Today we'll learn **exactly** how your computer design became a real object!
 Create a small container for desk supplies
 
 **Think about:**
+
 - What will you store in it?
 - How big does it need to be?
 - What shape works best?
@@ -105,6 +106,7 @@ Create a small container for desk supplies
 ## Making Things Hollow
 
 **The "Hole" tool:**
+
 - Makes shapes **subtract** instead of add
 - **Cuts out** material from other shapes
 - **Essential** for containers and hollow objects
@@ -174,7 +176,6 @@ Create a small container for desk supplies
 ## Don't Lose Your Container!
 
 1. **Name** your design clearly
-2. **Download** as STL file
 3. **Double-check** it saved
 4. **Show** your teacher when done
 

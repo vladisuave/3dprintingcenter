@@ -24,7 +24,15 @@ LESSON4_PDF = $(SLIDES_OUTPUT_DIR)/lesson4-slides.pdf
 LESSON5_PDF = $(SLIDES_OUTPUT_DIR)/lesson5-slides.pdf
 LESSON6_PDF = $(SLIDES_OUTPUT_DIR)/lesson6-slides.pdf
 
+LESSON1_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson1-slides-handout.pdf
+LESSON2_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson2-slides-handout.pdf
+LESSON3_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson3-slides-handout.pdf
+LESSON4_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson4-slides-handout.pdf
+LESSON5_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson5-slides-handout.pdf
+LESSON6_HANDOUT = $(SLIDES_OUTPUT_DIR)/lesson6-slides-handout.pdf
+
 ALL_SLIDE_PDFS = $(LESSON1_PDF) $(LESSON2_PDF) $(LESSON3_PDF) $(LESSON4_PDF) $(LESSON5_PDF) $(LESSON6_PDF)
+ALL_HANDOUT_PDFS = $(LESSON1_HANDOUT) $(LESSON2_HANDOUT) $(LESSON3_HANDOUT) $(LESSON4_HANDOUT) $(LESSON5_HANDOUT) $(LESSON6_HANDOUT)
 
 # Docker run command base
 DOCKER_RUN = docker run --platform linux/x86_64 --rm --volume "$(PWD):/data" --user $(shell id -u):$(shell id -g) $(DOCKER_IMAGE)
@@ -89,6 +97,36 @@ $(LESSON6_PDF): $(LESSON6_SLIDES) | $(SLIDES_OUTPUT_DIR)
 	$(DOCKER_RUN) $(LESSON6_SLIDES) -t beamer --slide-level=1 -o $(LESSON6_PDF)
 	@echo "Lesson 6 slides created: $(LESSON6_PDF)"
 
+# Convert slides to handouts
+.PHONY: handouts
+handouts: $(ALL_HANDOUT_PDFS)
+	@echo "All slide handouts created successfully!"
+
+# Individual handout targets
+$(LESSON1_HANDOUT): $(LESSON1_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON1_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON1_HANDOUT)
+	@echo "Lesson 1 handout created: $(LESSON1_HANDOUT)"
+
+$(LESSON2_HANDOUT): $(LESSON2_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON2_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON2_HANDOUT)
+	@echo "Lesson 2 handout created: $(LESSON2_HANDOUT)"
+
+$(LESSON3_HANDOUT): $(LESSON3_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON3_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON3_HANDOUT)
+	@echo "Lesson 3 handout created: $(LESSON3_HANDOUT)"
+
+$(LESSON4_HANDOUT): $(LESSON4_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON4_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON4_HANDOUT)
+	@echo "Lesson 4 handout created: $(LESSON4_HANDOUT)"
+
+$(LESSON5_HANDOUT): $(LESSON5_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON5_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON5_HANDOUT)
+	@echo "Lesson 5 handout created: $(LESSON5_HANDOUT)"
+
+$(LESSON6_HANDOUT): $(LESSON6_SLIDES) | $(SLIDES_OUTPUT_DIR)
+	$(DOCKER_RUN) $(LESSON6_SLIDES) -t beamer --slide-level=1 -V handout -o $(LESSON6_HANDOUT)
+	@echo "Lesson 6 handout created: $(LESSON6_HANDOUT)"
+
 # Convert to all formats
 .PHONY: all-formats
 all-formats: pdf docx html slides
@@ -110,6 +148,7 @@ help:
 	@echo "  docx         - Convert curriculum to DOCX"
 	@echo "  html         - Convert curriculum to HTML"
 	@echo "  slides       - Convert all lesson slides to PDF"
+	@echo "  handouts     - Convert all lesson slides to handout PDFs"
 	@echo "  all-formats  - Convert to all formats including slides"
 	@echo "  clean        - Remove output files"
 	@echo "  help         - Show this help message"
@@ -118,5 +157,6 @@ help:
 	@echo "  make              - Create all formats including slides"
 	@echo "  make pdf          - Create curriculum PDF only"
 	@echo "  make slides       - Create all lesson slide PDFs"
+	@echo "  make handouts     - Create all lesson handout PDFs"
 	@echo "  make all-formats  - Create everything"
 	@echo "  make clean        - Clean all output files"

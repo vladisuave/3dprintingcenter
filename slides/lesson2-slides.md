@@ -64,6 +64,7 @@ aspectratio: 169
 ## Basic Navigation (10 minutes)
 
 **The Big Three:**
+
 - **Rotate** - spin around your design
 - **Zoom** - get closer or farther
 - **Pan** - move left, right, up, down
@@ -77,6 +78,7 @@ aspectratio: 169
 ## Design a Keychain!
 
 **Requirements:**
+
 - Must have a **hole** for keyring
 - No bigger than **50mm** in any direction
 - At least **3mm thick**
@@ -149,10 +151,9 @@ aspectratio: 169
 ## Don't Lose It!
 
 1. Click **"Design"** menu
-2. Choose **"Download for 3D Printing"**
-3. Select **"STL"** format
-4. Give it a good name
-5. Click **"Save"**
+2. Choose **"Save"**
+3. Give your design a good name
+4. Make sure it's saved to your account
 
 ---
 
@@ -172,8 +173,6 @@ aspectratio: 169
 ## The Printing Process
 
 - Your designs will be **printed** between lessons
-- **Not all** designs can be printed (time limits)
-- **Teacher will choose** 2-3 per class
 - **Everyone** will see the results next lesson!
 
 ---
@@ -183,6 +182,7 @@ aspectratio: 169
 ## How Did It Go?
 
 **Quick share:**
+
 - What was **easy** about Tinkercad?
 - What was **challenging**?
 - What would you **change** about your design?
@@ -208,6 +208,5 @@ aspectratio: 169
 - **Save** your work one more time
 - **Close** your browser tabs
 - **Clean up** your workspace
-- **Log out** of computers
 
 **Excellent work designing today!**

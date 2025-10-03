@@ -35,10 +35,10 @@ Think of a problem at school or home and design something to solve it!
 
 ## Think About These
 
-- **Something** that bothers you
-- **Something** that could work better
-- **Something** people need help with
-- **Something** you can actually print
+- Something that **bothers** you
+- Something that could **work better**
+- Something people need **help with**
+- Something you **can actually print**
 
 ---
 
@@ -47,11 +47,12 @@ Think of a problem at school or home and design something to solve it!
 ## Get Your Brain Thinking
 
 - **Pencil holder** that doesn't tip over
-- **Hook** for your backpack
-- **Phone stand** for watching videos
-- **Organizer** for small toys or supplies
+- **Pencil topper**
+- **Pencilcase**
+- **Hook** for backpack
 - **Bookmark** that stays in place
 - **Cord organizer** for headphones
+- **Organizer** for small toys or supplies
 
 ---
 
@@ -72,6 +73,7 @@ Think of a problem at school or home and design something to solve it!
 ## Problem Identification
 
 **Ask yourself:**
+
 - What **frustrates** me at school or home?
 - What **falls over** or gets lost?
 - What would make my life **easier**?
@@ -86,6 +88,7 @@ Think of a problem at school or home and design something to solve it!
 ## Draw Your Solution
 
 **On paper, sketch:**
+
 - **What** your solution looks like
 - **How** it solves the problem
 - **Where** the important parts are
@@ -100,6 +103,7 @@ Think of a problem at school or home and design something to solve it!
 ## Bring Your Idea to Life
 
 **In Tinkercad:**
+
 - **Start simple** - basic shapes first
 - **Add details** as you go
 - **Test** if it makes sense
@@ -181,6 +185,7 @@ Think of a problem at school or home and design something to solve it!
 ## Does It Solve the Problem?
 
 **Ask yourself:**
+
 - **Would this actually work?**
 - **Is it the right size?**
 - **Would people want to use it?**
@@ -204,6 +209,7 @@ Think of a problem at school or home and design something to solve it!
 ## Present Your Solution
 
 **Quick 30-second shares:**
+
 - **"My problem is..."**
 - **"My solution is..."**
 - **"It works because..."**
