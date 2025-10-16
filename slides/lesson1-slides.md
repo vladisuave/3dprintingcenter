@@ -11,10 +11,35 @@ aspectratio: 169
 
 # Welcome to 3D Printing!
 
+## Establish Class Expectations
+
+**What are our 3D Printing M&Ms?**
+
+---
+
+# Welcome to 3D Printing!
+
+## Establish Class Expectations
+
+- Model Respect
+   - respect centermates' work
+   - respect the printers
+      - don't get hurt by them
+      - don't hurt them
+   - respect the mere 45 minutes per center lesson
+- Make Good Choices
+- Solve Problems
+   - If you know how, help your peers
+
+---
+
+# Welcome to 3D Printing!
+
 ## Today's Big Question
 
 **What is 3D printing and how does it work?**
 
+---
 
 # Amazing 3D Printed Objects
 
@@ -65,12 +90,26 @@ aspectratio: 169
 
 # The Magic Material
 
+::: columns
+
+:::: column
+
 ## How Plastic Becomes Objects
 
 - Plastic filament gets **heated up**
 - Squeezed out like **frosting from a tube**
 - **Cools down** and hardens
 - Layers **stick together** as they cool
+
+::::
+
+:::: column
+
+![](images/3DPrintInfographic.png){height=90%}
+
+::::
+
+:::
 
 ---
 
