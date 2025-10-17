@@ -16,6 +16,10 @@ Individual lesson slides are available as PDFs:
 - [Lesson 5 Slides (PDF)](slides/pdf/lesson5-slides.pdf)
 - [Lesson 6 Slides (PDF)](slides/pdf/lesson6-slides.pdf)
 
+## Chocolate Permission Form
+
+- [Chocolate Permission Form (PDF)](chocolate-permission-form.pdf)
+
 ## Source Files
 
 The source files for the curriculum and slides are available in Markdown format:

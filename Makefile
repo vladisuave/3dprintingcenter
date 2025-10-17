@@ -7,6 +7,10 @@ OUTPUT_FILE = 3d-printing-center-curriculum.pdf
 DOCX_OUTPUT = 3d-printing-center-curriculum.docx
 HTML_OUTPUT = 3d-printing-center-curriculum.html
 
+# Chocolate permission form
+CHOCOLATE_FORM_INPUT = chocolate-permission-form.md
+CHOCOLATE_FORM_OUTPUT = chocolate-permission-form.pdf
+
 # Slide files
 SLIDES_DIR = slides
 SLIDES_OUTPUT_DIR = slides/pdf
@@ -46,6 +50,12 @@ all: all-formats
 pdf:
 	$(DOCKER_RUN) $(INPUT_FILE) -o $(OUTPUT_FILE)
 	@echo "PDF created: $(OUTPUT_FILE)"
+
+# Convert chocolate permission form to PDF
+.PHONY: chocolate-form
+chocolate-form:
+	$(DOCKER_RUN) $(CHOCOLATE_FORM_INPUT) -o $(CHOCOLATE_FORM_OUTPUT)
+	@echo "Chocolate permission form PDF created: $(CHOCOLATE_FORM_OUTPUT)"
 
 # Convert to DOCX
 .PHONY: docx
@@ -129,13 +139,13 @@ $(LESSON6_HANDOUT): $(LESSON6_SLIDES) | $(SLIDES_OUTPUT_DIR)
 
 # Convert to all formats
 .PHONY: all-formats
-all-formats: pdf docx html slides
+all-formats: pdf docx html slides chocolate-form
 	@echo "All formats created successfully!"
 
 # Clean output files
 .PHONY: clean
 clean:
-	rm -f $(OUTPUT_FILE) $(DOCX_OUTPUT) $(HTML_OUTPUT)
+	rm -f $(OUTPUT_FILE) $(DOCX_OUTPUT) $(HTML_OUTPUT) $(CHOCOLATE_FORM_OUTPUT)
 	rm -rf $(SLIDES_OUTPUT_DIR)
 	@echo "Output files cleaned"
 
@@ -143,20 +153,22 @@ clean:
 .PHONY: help
 help:
 	@echo "Available targets:"
-	@echo "  all          - Convert to all formats (default)"
-	@echo "  pdf          - Convert curriculum to PDF"
-	@echo "  docx         - Convert curriculum to DOCX"
-	@echo "  html         - Convert curriculum to HTML"
-	@echo "  slides       - Convert all lesson slides to PDF"
-	@echo "  handouts     - Convert all lesson slides to handout PDFs"
-	@echo "  all-formats  - Convert to all formats including slides"
-	@echo "  clean        - Remove output files"
-	@echo "  help         - Show this help message"
+	@echo "  all           - Convert to all formats (default)"
+	@echo "  pdf           - Convert curriculum to PDF"
+	@echo "  docx          - Convert curriculum to DOCX"
+	@echo "  html          - Convert curriculum to HTML"
+	@echo "  slides        - Convert all lesson slides to PDF"
+	@echo "  handouts      - Convert all lesson slides to handout PDFs"
+	@echo "  chocolate-form - Convert chocolate permission form to PDF"
+	@echo "  all-formats   - Convert to all formats including slides and forms"
+	@echo "  clean         - Remove output files"
+	@echo "  help          - Show this help message"
 	@echo ""
 	@echo "Usage examples:"
-	@echo "  make              - Create all formats including slides"
-	@echo "  make pdf          - Create curriculum PDF only"
-	@echo "  make slides       - Create all lesson slide PDFs"
-	@echo "  make handouts     - Create all lesson handout PDFs"
-	@echo "  make all-formats  - Create everything"
-	@echo "  make clean        - Clean all output files"
+	@echo "  make                 - Create all formats including slides and forms"
+	@echo "  make pdf             - Create curriculum PDF only"
+	@echo "  make slides          - Create all lesson slide PDFs"
+	@echo "  make handouts        - Create all lesson handout PDFs"
+	@echo "  make chocolate-form  - Create chocolate permission form PDF only"
+	@echo "  make all-formats     - Create everything"
+	@echo "  make clean           - Clean all output files"
