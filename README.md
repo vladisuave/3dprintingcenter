@@ -25,3 +25,6 @@ Individual lesson slides are available as PDFs:
 The source files for the curriculum and slides are available in Markdown format:
 - [Curriculum (Markdown)](3d-printing-center-curriculum.md)
 - [Lesson Slides (Markdown)](slides/)
+
+## Keychains in the Slicer
+[YouTube video of slicing and exploring the preview of the Keychain print.](https://youtu.be/qvxxBL7yTJs)
