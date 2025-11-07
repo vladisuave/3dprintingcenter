@@ -21,185 +21,93 @@ aspectratio: 169
 
 ---
 
-# How Did This Happen?
+# How Your 3D Printer Created Objects
 
-## The Printing Process Deep Dive
+## The Complete Printing Process
 
-Today we'll learn **exactly** how your computer design became a real object!
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 
----
+**Step 1: Slicing**
 
-# Step 1: Slicing
+- Computer cuts design into thin layers
+- Each layer 0.2mm thick
+- Hundreds of layers per object
 
-## Computer Cuts Your Design
+**Step 2: Layer by Layer**
 
-- **Slicing software** cuts design into thin layers
-- Like slicing a loaf of bread
-- Each layer is **0.2mm thick** (thinner than paper!)
-- Hundreds of layers make one object
+- Hot plastic draws each layer
+- One layer at a time, bottom to top
+- Each layer sticks to the one below
 
-*Show slicing software if available*
+:::
+::: {.column width="50%"}
 
----
+**Step 3: Cooling & Bonding**
 
-# Step 2: Layer by Layer
+- Hot plastic cools down quickly
+- Layers bond together as they cool
+- Final object becomes one solid piece
 
-## The Printer Draws
+**Safety Reminder:**
 
-- **Hot plastic** draws each layer
-- **Follows the path** from slicing software
-- **One layer at a time** from bottom to top
-- Each layer **sticks** to the one below
+- Never touch hot parts (200°C+!)
+- Don't reach into printer while working
+- Tell a teacher if something looks wrong
 
----
-
-# Step 3: Cooling and Bonding
-
-## Layers Become Solid
-
-- **Hot plastic cools down** quickly
-- **Layers bond together** as they cool
-- **Strong connection** between layers
-- **Final object** is one solid piece
+:::
+::::::::::::::
 
 ---
 
-# Safety Rules Review
+# Today's Challenge: Design a Container
 
-## Stay Safe Around Printers
+:::::::::::::: {.columns}
+::: {.column width="50%"}
 
-- **Never touch** the hot parts (200°C+!)
-- **Don't reach** into printer while working
-- **Tell a teacher** if something looks wrong
-- **Hot end** and **heated bed** are dangerous
+**Your Mission: Create a small container for desk supplies**
 
----
+**Container Requirements:**
 
-# Today's Challenge
+- Big enough for paperclips or erasers
+- Has walls and a bottom
+- Hollow inside (using "Hole" tool!)
+- Printable size (fits on build plate)
 
-## Design a Container
+**Design Tips:**
 
-**Your Mission:**
-Create a small container for desk supplies
+- Walls should be at least 2mm thick
+- Bottom should be at least 1mm thick
+- Opening big enough for your hand
+- Test size by measuring real objects
 
-**Think about:**
+:::
+::: {.column width="50%"}
 
-- What will you store in it?
-- How big does it need to be?
-- What shape works best?
+**Think Like a Designer:**
 
----
+- What problem does your container solve?
+- Who would use this container?
+- Where would they keep it?
+- How can you make it better?
 
-# Container Requirements
+**Today's Process:**
 
-## Design Specifications
+1. Start with cube or cylinder
+2. Add smaller shape inside
+3. Make inner shape a "Hole"
+4. Group them together
 
-- **Big enough** for paperclips or erasers
-- **Has walls** and a bottom
-- **Hollow inside** (we'll learn the "Hole" tool!)
-- **Printable size** (fits on build plate)
+*We'll learn the "Hole" tool that makes shapes subtract instead of add!*
 
----
-
-# New Tool: The Hole
-
-## Making Things Hollow
-
-**The "Hole" tool:**
-
-- Makes shapes **subtract** instead of add
-- **Cuts out** material from other shapes
-- **Essential** for containers and hollow objects
-- **Group** hole with solid to make it work
+:::
+::::::::::::::
 
 ---
 
-# Step-by-Step Container Build
+# DEMO!
 
-## Follow Along (25 minutes)
-
-1. **Start** with cube or cylinder (5 min)
-2. **Add smaller shape** inside (5 min)
-3. **Make inner shape** a "Hole" (10 min)
-4. **Group** them together (5 min)
-
-*Take your time - this is a new concept!*
-
----
-
-# Design Tips
-
-## Making Great Containers
-
-- **Walls** should be at least 2mm thick
-- **Bottom** should be at least 1mm thick
-- **Opening** should be big enough for your hand
-- **Test** the size by measuring real objects
-
----
-
-# Troubleshooting Help
-
-## Common Container Issues
-
-- **Walls too thin?** Make outer shape bigger
-- **Hole not working?** Check if it's selected as "Hole"
-- **Shapes not combining?** Select all and group
-- **Container too small?** Measure your objects first
-
----
-
-# Think Like a Designer
-
-## Problem Solving Questions
-
-- **What problem** does your container solve?
-- **Who** would use this container?
-- **Where** would they keep it?
-- **How** can you make it better?
-
----
-
-# Advanced Features
-
-## For Fast Finishers
-
-- **Add decorations** to the outside
-- **Create dividers** inside
-- **Add your name** or label
-- **Make it unique** to you
-
----
-
-# Save Your Work
-
-## Don't Lose Your Container!
-
-1. **Name** your design clearly
-3. **Double-check** it saved
-4. **Show** your teacher when done
-
----
-
-# Quick Gallery Walk
-
-## See Everyone's Containers
-
-- **Walk quietly** around the room
-- **Look** at different design approaches
-- **Give compliments** to classmates
-- **Get ideas** for improvements
-
----
-
-# What We Learned
-
-## Today's Big Ideas
-
-- **Slicing** cuts designs into layers
-- **Layer-by-layer** printing builds objects
-- **Hole tool** creates hollow spaces
-- **Containers** solve storage problems
+**Tinkercad DEMO!**
 
 ---
 
@@ -212,16 +120,3 @@ Create a small container for desk supplies
 - Design something to solve a real problem
 - Use everything you've learned
 - Be creative problem solvers!
-
----
-
-# Cleanup Time!
-
-## 5 Minutes to Pack Up
-
-- **Save** your container design
-- **Close** Tinkercad properly
-- **Clean** your workspace
-- **Put away** materials
-
-**Great job learning about printing and containers!**
