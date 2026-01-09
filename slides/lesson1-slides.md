@@ -41,19 +41,6 @@ aspectratio: 169
 
 ---
 
-# Amazing 3D Printed Objects
-
-## Look at These!
-
-- Toys and games
-- Tools and gadgets
-- Decorations
-- Food (yes, food!)
-
-*Pass around demonstration objects*
-
----
-
 # How Does 3D Printing Work?
 
 ## Think of Building with Pancakes!
@@ -113,6 +100,31 @@ aspectratio: 169
 
 ---
 
+# Safety First!
+
+## 3D Printer Safety Rules
+
+- **Never touch** the hot parts
+- **Don't reach** into the printer while it's working
+- **Tell a teacher** if something looks wrong
+- The printer gets **very hot** - like an oven!
+
+---
+
+# Amazing 3D Printed Objects
+
+## Look at These!
+
+- Toys and games
+- Tools and gadgets
+- Decorations
+- Food (yes, food!)
+
+*Pass around demonstration objects*
+
+---
+
+
 # Real-World Examples
 
 ## 3D Printing Helps People
@@ -135,17 +147,6 @@ aspectratio: 169
 - What do you think each object is used for?
 - Can you see the layers?
 - Which one is your favorite? Why?
-
----
-
-# Safety First!
-
-## 3D Printer Safety Rules
-
-- **Never touch** the hot parts
-- **Don't reach** into the printer while it's working
-- **Tell a teacher** if something looks wrong
-- The printer gets **very hot** - like an oven!
 
 ---
 
