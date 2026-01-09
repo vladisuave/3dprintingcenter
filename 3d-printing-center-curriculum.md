@@ -38,6 +38,33 @@ Students will:
 
 \newpage
 
+# Reworks for second rotation
+
+Lessons 3,4,5,6 will be reworked to have more specific objectives.
+
+Lesson 2 is the first Tinkercad lesson, and it will continue to use the keychain project.
+I am tempted to switch it over to the more specific approach to making the keychain here: <https://www.tinkercad.com/projects/Name-That-Keychain-1>
+
+**Lesson 3:** Create a 20cm long ruler, accurate to the nearest millimeter.
+This project will reinforce their connection of dimensions between Tinkercad world and real world.
+It will have them using the duplicate tool and probably the ruler tool in Tinkercad. There's some room for embelishments but the main goal is common for all the students.
+
+**Lesson 4:** Create something with joints -- introduce the articulating joints in Tinkercad
+
+**Lesson 5:** 3D printed zipper pulls <https://www.tinkercad.com/projects/3D-Printed-Zipper-Pulls>
+
+**Lesson 6:** 
+The challenge with this lesson is that there is no good opportunity for them to pick up things they design after the lesson. However doing a show and tell reflection kind of lesson didn't work out as we found last time. An idea I'm contemplating is to have them assemble a device out of 3D printed parts that will be ready on that day. I'm open to ideas on objects that can be assembled, but i'm tempted to use one of the objects that the YouTuber Engineezy created.
+
+Examples:
+
+ - 2DOF Robot Head <https://engineezy.com/collections/free-downloads/products/robbob-2-dof-robot-head>
+ - Animation Fidget <https://engineezy.com/collections/free-downloads/products/the-animation-fidget-stl>
+ - Stomp Rocket (Would use a soft filament and remove the pointy tip) <https://engineezy.com/collections/free-downloads/products/the-epic-stomp-rocket-stl>
+ - Ellipse Drawing Mechanism <https://engineezy.com/collections/free-downloads/products/the-ellipse-mechanism>
+
+\newpage
+
 # Lesson 1: What is 3D Printing? (45 minutes)
 
 ## Establish class expectations (5 minutes)
