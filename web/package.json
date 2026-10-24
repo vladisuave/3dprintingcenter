@@ -1,0 +1,13 @@
+{
+  "name": "3dprintingcenter-slides",
+  "scripts": {
+    "dev": "slidev lesson2.md --open false",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "private": true,
+  "type": "module"
+}

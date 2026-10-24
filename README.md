@@ -1,6 +1,10 @@
 # 3dprintingcenter
 Curriculum and slides/handouts content for a 3d printing center.
 
+## HTML Slides (for presenting)
+
+Picture-first, animated slide decks live in [`web/`](web/) and are published with GitHub Pages at <https://vladisuave.github.io/3dprintingcenter/>. Lesson 2 is the first one converted; see [web/README.md](web/README.md) for presenting and editing.
+
 ## Curriculum
 
 The complete curriculum is available as a PDF:

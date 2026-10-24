@@ -1,0 +1,185 @@
+/* Shared look for all 3D Printing Center decks: bright, big, picture-first. */
+:root {
+  --brand-ink: #1f2a44;
+  --brand-orange: #ff7a1a;
+  --brand-blue: #4f8cff;
+  --brand-green: #2bb673;
+  --brand-pink: #ff5c8a;
+  --brand-cream: #fff8ef;
+  --kc-bg: var(--brand-cream);
+}
+
+.slidev-layout {
+  background: var(--brand-cream);
+  color: var(--brand-ink);
+  font-family: Nunito, ui-rounded, system-ui, sans-serif;
+  font-size: 1.35rem;
+}
+
+/* default-layout slides: title on top, content centred in the remaining space */
+.slidev-layout.default {
+  display: flex;
+  flex-direction: column;
+}
+.slidev-layout.default > h1 {
+  margin-bottom: auto;
+}
+.slidev-layout.default > :last-child {
+  margin-bottom: auto;
+}
+
+.slidev-layout h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.05;
+  color: var(--brand-ink);
+  margin-bottom: 0.8rem;
+}
+.slidev-layout h1 + p {
+  opacity: 1;
+}
+.slidev-layout h2 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+/* one big centred line under a picture */
+.caption {
+  font-size: 2.1rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.15;
+}
+.caption small {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-top: 0.3rem;
+}
+
+/* picture cards in a row */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 4), 1fr);
+  gap: 1.1rem;
+}
+.card {
+  background: white;
+  border: 4px solid var(--brand-ink);
+  border-radius: 24px;
+  padding: 1rem 0.8rem 1.1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0 6px 0 var(--brand-ink);
+  min-height: 260px;
+  justify-content: center;
+}
+.card .big {
+  font-size: 5.5rem;
+  line-height: 1.1;
+}
+.card b {
+  font-size: 1.55rem;
+  line-height: 1.15;
+}
+.card small {
+  font-size: 1.05rem;
+  opacity: 0.7;
+  line-height: 1.2;
+}
+.card.orange { background: #ffe7d4; }
+.card.blue { background: #dfeaff; }
+.card.green { background: #dcf7e8; }
+.card.pink { background: #ffe0ea; }
+
+/* big number badges for steps */
+.badge {
+  display: inline-grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--brand-orange);
+  color: white;
+  font-weight: 900;
+}
+
+/* gentle idle animations */
+@keyframes bob { 0%, 100% { transform: translateY(0) rotate(-3deg) } 50% { transform: translateY(-14px) rotate(3deg) } }
+@keyframes spin-y { from { transform: rotateX(-25deg) rotateY(0) } to { transform: rotateX(-25deg) rotateY(360deg) } }
+@keyframes zoom { 0%, 100% { transform: scale(0.6) } 50% { transform: scale(1.25) } }
+@keyframes slide { 0%, 100% { transform: translateX(-38px) } 50% { transform: translateX(38px) } }
+@keyframes wiggle { 0%, 100% { transform: rotate(-6deg) } 50% { transform: rotate(6deg) } }
+@keyframes pop-in { from { transform: scale(0.3); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+
+.bob { animation: bob 3s ease-in-out infinite; }
+.wiggle { animation: wiggle 1.6s ease-in-out infinite; display: inline-block; }
+
+/* mini CSS cube used on the "moves" slide */
+.cube-stage {
+  height: 130px;
+  display: grid;
+  place-items: center;
+  perspective: 500px;
+  overflow: hidden;
+}
+.cube {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  transform-style: preserve-3d;
+  transform: rotateX(-25deg) rotateY(35deg);
+}
+.cube > i {
+  position: absolute;
+  inset: 0;
+  border: 3px solid var(--brand-ink);
+  border-radius: 6px;
+  background: rgba(255, 122, 26, 0.85);
+}
+.cube > i:nth-child(1) { transform: translateZ(35px); }
+.cube > i:nth-child(2) { transform: rotateY(180deg) translateZ(35px); }
+.cube > i:nth-child(3) { transform: rotateY(90deg) translateZ(35px); background: rgba(230, 100, 10, 0.9); }
+.cube > i:nth-child(4) { transform: rotateY(-90deg) translateZ(35px); background: rgba(230, 100, 10, 0.9); }
+.cube > i:nth-child(5) { transform: rotateX(90deg) translateZ(35px); background: rgba(255, 170, 110, 0.95); }
+.cube > i:nth-child(6) { transform: rotateX(-90deg) translateZ(35px); }
+.cube.spin { animation: spin-y 4s linear infinite; }
+.zoom-wrap { animation: zoom 2.6s ease-in-out infinite; }
+.slide-wrap { animation: slide 2.6s ease-in-out infinite; }
+
+/* reveal answer pill */
+.answer {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.6rem;
+  border-radius: 999px;
+  background: var(--brand-green);
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.emoji-wall {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.6rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.emoji-wall span {
+  display: inline-block;
+}
+.emoji-wall span:nth-child(odd) { animation: bob 3.2s ease-in-out infinite; }
+.emoji-wall span:nth-child(even) { animation: bob 3.2s ease-in-out -1.6s infinite; }
+
+.page-num {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0.8rem;
+  font-size: 0.9rem;
+  opacity: 0.4;
+}

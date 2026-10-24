@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3D Printing Center</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖨️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #1f2a44; --orange: #ff7a1a; --cream: #fff8ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--cream); color: var(--ink); font-family: Nunito, system-ui, sans-serif; }
+    main { max-width: 900px; margin: 0 auto; padding: 2.5rem 16px 3rem; }
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 900; margin: 0 0 .2rem; }
+    .sub { opacity: .7; margin: 0 0 2rem; font-size: 1.1rem; }
+    h2 { font-size: 1.3rem; margin: 2rem 0 .8rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+    a.tile { display: block; text-decoration: none; color: inherit; background: white; border: 3px solid var(--ink);
+      border-radius: 18px; padding: 1rem 1.1rem; box-shadow: 0 5px 0 var(--ink); transition: transform .15s; }
+    a.tile:hover, a.tile:focus-visible { transform: translateY(-3px); }
+    a.tile .n { font-weight: 900; color: var(--orange); font-size: .95rem; }
+    a.tile .t { font-weight: 900; font-size: 1.25rem; line-height: 1.2; margin-top: .2rem; }
+    a.tile .s { opacity: .65; font-size: .95rem; margin-top: .3rem; }
+    a.tile.soon { opacity: .55; box-shadow: 0 5px 0 rgba(31,42,68,.4); border-color: rgba(31,42,68,.4); }
+    ul { padding-left: 1.2rem; line-height: 1.8; }
+    a { color: var(--ink); }
+    .tip { margin-top: 2.2rem; padding: 1rem 1.2rem; background: white; border-radius: 14px; border-left: 6px solid var(--orange); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>🖨️ 3D Printing Center</h1>
+  <p class="sub">Village School · Grades 3–5 · 6 lessons, 45 minutes each</p>
+
+  <h2>Lesson slides</h2>
+  <div class="grid">
+    <a class="tile soon" href="https://github.com/vladisuave/3dprintingcenter/blob/main/slides/pdf/lesson1-slides.pdf">
+      <div class="n">LESSON 1</div><div class="t">What is 3D printing?</div><div class="s">PDF for now</div></a>
+    <a class="tile" href="lesson2/">
+      <div class="n">LESSON 2</div><div class="t">Make your own keychain</div><div class="s">Tinkercad intro</div></a>
+    <a class="tile soon" href="https://github.com/vladisuave/3dprintingcenter/blob/main/slides/pdf/lesson3-slides.pdf">
+      <div class="n">LESSON 3</div><div class="t">Design a container</div><div class="s">PDF for now</div></a>
+    <a class="tile soon" href="https://github.com/vladisuave/3dprintingcenter/blob/main/slides/pdf/lesson4-slides.pdf">
+      <div class="n">LESSON 4</div><div class="t">Lesson 4</div><div class="s">PDF for now</div></a>
+    <a class="tile soon" href="https://github.com/vladisuave/3dprintingcenter/blob/main/slides/pdf/lesson5-slides.pdf">
+      <div class="n">LESSON 5</div><div class="t">Lesson 5</div><div class="s">PDF for now</div></a>
+    <a class="tile soon" href="https://github.com/vladisuave/3dprintingcenter/blob/main/slides/pdf/lesson6-slides.pdf">
+      <div class="n">LESSON 6</div><div class="t">Lesson 6</div><div class="s">PDF for now</div></a>
+  </div>
+
+  <h2>For teachers</h2>
+  <ul>
+    <li><a href="https://github.com/vladisuave/3dprintingcenter/blob/main/3d-printing-center-curriculum.md">Curriculum</a></li>
+    <li><a href="https://github.com/vladisuave/3dprintingcenter/blob/main/chocolate-permission-form.pdf">Chocolate permission form (PDF)</a></li>
+    <li><a href="https://youtu.be/qvxxBL7yTJs">Keychains in the slicer (video)</a></li>
+  </ul>
+
+  <div class="tip">
+    <b>Presenting:</b> open a lesson, press <b>F</b> for full screen, and use the arrow keys or a clicker.
+    Press <b>O</b> for an overview of all slides. Teacher notes are in presenter mode (<b>P</b>).
+  </div>
+</main>
+</body>
+</html>
