@@ -1,6 +1,7 @@
 ---
 theme: default
 title: "Lesson 2: Make Your Own Keychain"
+titleTemplate: '%s'
 info: 3D Printing Center · Village School · Grades 3–5
 colorSchema: light
 routerMode: hash
